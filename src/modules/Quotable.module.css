@@ -1,0 +1,59 @@
+.loading {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    color: #000;
+}
+
+.error {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+.quote-card {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 5px solid #000;
+    background: #243130;
+}
+.content {
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    color:#db8c8c;
+}
+.author {
+    font-size: 1.25em;
+    font-family: 'Dancing Script', cursive;
+    color: #1a6a76;
+    font-weight: 300;
+}
+.button {
+    font-family: 'Dancing Script', cursive;
+	display: block;
+	border: 3px solid #000;
+	background: transparent;
+	padding: 10px 15px;
+    margin: 20px 0px;
+	color: #000;
+    font-weight: 300;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.button:hover{
+	background: #000;
+	color: #fff;
+    font-weight: 400;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
